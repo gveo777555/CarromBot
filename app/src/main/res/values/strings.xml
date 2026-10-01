@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Carrom bot</string>
+    <string name="accessibility_service_description">Carrom Pool Bot</string>
+</resources>
