@@ -1,19 +1,19 @@
 plugins {
-    id 'com.android.application' version '8.7.0' apply true
+    id 'com.android.application'
 }
 
 android {
-    compileSdk 35
+    compileSdk 34
+    namespace "com.carrombot"
     defaultConfig {
         applicationId "com.carrombot"
         minSdk 26
-        targetSdk 35
+        targetSdk 34
         versionCode 1
         versionName "1.0"
     }
-    namespace "com.carrombot"
 }
 
 dependencies {
-    implementation "androidx.appcompat:appcompat:1.7.0"
+    implementation "androidx.appcompat:appcompat:1.6.1"
 }
